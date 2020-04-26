@@ -5,11 +5,11 @@ Test commit or revert with rspec and fswatch
 
 ``rspec --init``
 
-A singe run:
+## A singe run:
 
 ``zsh tcr.zsh``
 
-A continous watch and TCR run:
+## A continous watch and TCR run:
 
 ``brew install fswatch``
 
