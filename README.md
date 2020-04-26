@@ -2,18 +2,15 @@
 Test commit or revert with rspec and fswatch
 
 # Get started
-``brew install fswatch``
-
-You might need to:
-
-``chmod +x tcr.sh``
-
-``chmod +x watch.sh``
-
-Init rspec:
 
 ``rspec --init``
 
-Run:
+A singe run:
 
-``./watch.sh``
+``zsh tcr.zsh``
+
+A continous watch and TCR run:
+
+``brew install fswatch``
+
+``zsh watch.zsh``
